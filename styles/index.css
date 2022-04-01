@@ -1,14 +1,20 @@
-body{
-    margin: 0;
-}
-.barra {
-    padding-top: 15px;
+.barra .contedioBarra{
     position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
 }
-.combo {
+.contedioBarra img {
     width: 100px;
+    height: 100px;
 }
-.container-fluid button{
-    width: 150px;
+
+.barra .contedioBarra a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #e50914;
+    padding: 8px 18px;
+    border-right: 5px;
 }
